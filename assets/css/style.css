@@ -86,3 +86,36 @@ p{
     background-color: #5234f9;
     border: 2px solid #5234f9;
 }
+article{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 40vh;
+}
+.portfolioSection{
+    background-color: rgb(245, 245, 245);
+    
+}
+.portfolioSection div{
+padding-right: 20vh;
+margin-top: 0;
+}
+.seoFriendly{
+    padding-left: 20vh;
+}
+article h2{
+    color: #0e1015 ;
+    padding-bottom: 1.5vh;
+    font-size: 3vh;
+    margin-top: 0;
+}
+article p{
+    color: #8c979e;
+    padding-bottom: 3vh;
+    line-height: 3vh;
+    font-size: 1.5vh;
+}
+article img{
+    height: 47vh;
+}
